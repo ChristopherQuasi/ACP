@@ -1,0 +1,102 @@
+button{
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-color: #D8D8D8;
+  border-width: 1px;
+  border-style: solid;
+
+}
+body{
+  background: white;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.container{
+  padding-top:50px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1px 1px;
+  padding: 1%;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+   color: black;
+   transition: all 0.25s;
+}
+
+.login{
+  background: transparent;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  padding: 40px;
+  width: 350px;
+  border-color: transparent;
+  border-width: 1px;
+  border-style: ridge;
+}
+h2{
+  color: white;
+}
+
+input{
+  color: black;
+  width: 220px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 2px solid #BDBDBD;
+  text-align: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}

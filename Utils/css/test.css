@@ -1,0 +1,24 @@
+ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol li{
+  float: left;
+  margin: 2%;
+  padding: 0.4%;
+}
+ol li a{
+  color: black;
+}
+.disabled{
+  color: grey;
+}
+.disabled:hover{
+  color: grey;
+}
+.active-page{
+  background: #2196F3;
+  padding: 0.4%;
+  border-radius: 2px;
+}
